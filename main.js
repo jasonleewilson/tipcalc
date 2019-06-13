@@ -5,7 +5,6 @@ document.getElementById('container').onchange =function() {
     var tipValue = bill * (tipPercent / 100);
     var newBillEach = (bill + tipValue) / split;
     var tipEach = tipValue / split;
-    //console.log(split);
 
     document.getElementById('tipOutput').innerHTML = tipPercent + '%';
     document.getElementById('splitOutput').innerHTML = split;
