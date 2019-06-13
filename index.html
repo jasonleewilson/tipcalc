@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>tipcalc</title>
+</head>
+<body>
+    <div id="container">
+        <h1>Tip Caculator</h1>
+        <hr />
+        <div>
+            <label for="Total Bill:"></label>
+            <input type="text" placeholder="Enter your total bill..." id="billTotal">
+        </div>
+
+        <div>
+            <label>Tip:</label>
+            <input type="range" value="0" id="tipInput">
+        </div>
+
+        <div>
+            <label>Split (Number of people)</label>
+            <input type="range" min="1" max="10" value="1" id="splitInput"> 
+        </div>
+        <hr />
+
+        <div>
+            <div>
+                <label>New Bill (Per person):</label><span>0</span>
+            </div>
+            <div>
+                <label>Tip Amoun (per person):</label><span>0</span>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
