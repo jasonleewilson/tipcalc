@@ -6,6 +6,8 @@ body {
     letter-spacing: 0.5px;
 }
 
+a {color: black;}
+
 h1 {
     text-align: center;
 }
